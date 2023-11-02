@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML Tutorial</title>
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+		<style>
+			*{
+				font-family: 'Open Sans';
+			}
+			h1, h2{
+				text-align: center;
+			}
+			.h1{
+				margin-top: 0;
+			}
+			.html_text{
+				text-decoration: underline dotted;
+			}
+			.tag{
+				background: #e0e0e0;
+				color: #ce5763;
+			}
+			.span_italic{
+				font-style: italic;
+			}
+			.div_code{
+				padding: 10px;
+				background: #e0e0e0;
+			}
+			.red_code{
+				color: #ce5763;
+			}
+			.bot_span span{
+				background: #e0e0e0;
+				color: #327d88;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1 class="h1"><b>HTML Tutorial</b></h1>
+		<hr>
+		<h2>What is HTML?</h2>
+
+		<p><b>Hypertext Markup Language (<span class="html_text">HTML</span>)</b> is the standard markup language for creating web pages and web applications.</p>
+		<p>Web browsers receive <span class="html_text">HTML</span> documents from a web server or from local storage and render the documents into multimedia web pages. <span class="html_text">HTML</span> describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+		<p><span class="html_text">HTML</span> elements are the building blocks of <span class="html_text">HTML</span> pages. With <span class="html_text">HTML</span> constructs, images and other objects such as interactive forms may be embedded into the rendered page. <span class="html_text">HTML</span> provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. <span class="html_text">HTML</span> elements are delineated by <span class="span_italic">tags</span>, written using angle brackets. Tags such as <code class="tag">&lt;img /&gt;</code> and <code class="tag">&lt;input /&gt;</code> directly introduce content into the page. Other tags such as <code class="tag">&lt;p&gt;</code> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the <span class="html_text">HTML</span> tags, but use them to interpret the content of the page.</p>
+		<hr>
+
+		<h1>Markup</h1>
+
+		<p><span class="html_text">HTML</span> markup consists of several key components, including those called <span class="span_italic">tags</span> (and their <span class="span_italic">attributes</span>), character-based <span class="span_italic">data types</span>, <span class="span_italic">character references</span> and <span class="span_italic">entity references</span>. <span class="html_text">HTML</span> tags most commonly come in pairs like <code class="tag">&lt;h1&gt;</code> and <code class="tag">&lt;/ h1&gt;</code>, although some represent <span class="span_italic">empty elements</span> and so are unpaired, for example <code class="tag">&lt;img&gt;</code>. The first tag in such a pair is the <span class="span_italic">start tag</span>, and the second is the <span class="span_italic">end tag</span> (they are also called <span class="span_italic">opening tags</span> and <span class="span_italic">closing tags</span>).</p>
+		<p>Another important component is the <span class="html_text">HTML</span> document <span class="span_italic">type declaration</span>, which triggers standards mode rendering.</p>
+		<p>The following is an example of the classic "Hello, World!" program:</p>
+
+		<div class="div_code">
+			<pre style="margin: 20px 0 0 0;">
+<span class="red_code">&lt;!DOCTYPE html&gt</span>
+<span class="red_code">&lt;html&gt</span>
+	<span class="red_code">&lt;head&gt</span>
+		<span class="red_code">&lt;title&gt;</span>This is a title<span class="red_code">&lt;/title&gt</span>
+	<span class="red_code">&lt;/head&gt</span>
+	<span class="red_code">&lt;body&gt</span>
+		<span class="red_code">&lt;p&gt;</span>Hello world!<span class="red_code">&lt;/p&gt</span>
+	<span class="red_code">&lt;/body&gt</span>
+<span class="red_code">&lt;/html&gt</span>
+    		</pre>
+		</div >
+		<hr>
+
+		<p class="bot_span"><b>Tags:</b> <span>CodingScripting</span> <span>head</span> <span>HTML</span> <span>Introduction to HTML</span> <span>Landing</span> <span>Links semantics</span> <span>Structure</span> <span>Text</span></p>
+	</body>
+</html>
